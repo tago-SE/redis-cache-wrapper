@@ -1,5 +1,5 @@
 {
-  "name": "@tago/redis-cache-wrapper",
+  "name": "simple-redis-cache-wrapper",
   "version": "1.0.0",
   "description": "Simple redis cache wrapper",
   "main": "index.js",
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/tago-SE/cache-lib#readme",
   "devDependencies": {
+    "@types/node": "^18.16.3",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "ioredis": "^5.3.2"
   }
 }
