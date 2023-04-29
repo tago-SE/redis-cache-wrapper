@@ -1,0 +1,22 @@
+{
+  "name": "cache-lib",
+  "version": "1.0.0",
+  "description": "Simple redis cache wrapper",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tago-SE/cache-lib.git"
+  },
+  "author": "Tiago Redaelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tago-SE/cache-lib/issues"
+  },
+  "homepage": "https://github.com/tago-SE/cache-lib#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
