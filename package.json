@@ -1,5 +1,5 @@
 {
-  "name": "cache-lib",
+  "name": "@tago/redis-cache-wrapper",
   "version": "1.0.0",
   "description": "Simple redis cache wrapper",
   "main": "index.js",
