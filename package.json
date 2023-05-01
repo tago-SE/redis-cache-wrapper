@@ -2,7 +2,9 @@
   "name": "simple-redis-cache-wrapper",
   "version": "1.0.6",
   "description": "Simple redis cache wrapper",
-  "main": "src/index.ts",
+  "tags": ["redis", "ioredis", "wrapper"],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest --config jestconfig.json",
