@@ -1,6 +1,6 @@
 {
   "name": "simple-redis-cache-wrapper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple redis cache wrapper",
   "main": "dist/index.js",
   "scripts": {
