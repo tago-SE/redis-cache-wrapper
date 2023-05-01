@@ -1,6 +1,6 @@
 {
   "name": "simple-redis-cache-wrapper",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple redis cache wrapper",
   "main": "src/index.ts",
   "scripts": {
@@ -8,7 +8,7 @@
     "test": "jest --config jestconfig.json",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
-    "prepublishOnly" : "yarn run build && yarn run test && yarn run lint"
+    "prepublishOnly": "yarn run build && yarn run test && yarn run lint"
   },
   "repository": {
     "type": "git",
