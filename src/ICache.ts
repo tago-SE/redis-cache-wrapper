@@ -1,10 +1,9 @@
-
 export interface CacheConfig {
   /**
    * The name of the cache repository will be used to determine the key prefix
    */
   name: string;
-  
+
   /**
    * Character used to separate key segments, defaults to ':'.
    */
@@ -15,7 +14,6 @@ export interface CacheConfig {
    */
   ttlInSeconds?: number;
 }
-
 
 export interface CacheSetOptions {
   ttlInSeconds?: number;
