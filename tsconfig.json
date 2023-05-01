@@ -9,7 +9,7 @@
       "strict": true,
       "forceConsistentCasingInFileNames": true,
     },
-    "include": ["index.ts"],
+    "include": ["src/index.ts"],
     "exclude": ["node_modules", "**/*.test.ts"]
   }
   
