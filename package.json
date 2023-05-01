@@ -1,8 +1,8 @@
 {
   "name": "simple-redis-cache-wrapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple redis cache wrapper",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
   },
