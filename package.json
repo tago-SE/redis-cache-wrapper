@@ -4,7 +4,7 @@
   "description": "Simple redis cache wrapper",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,7 @@
   "homepage": "https://github.com/tago-SE/cache-lib#readme",
   "devDependencies": {
     "@types/node": "^18.16.3",
-    "ts-loader": "^9.4.2",
-    "typescript": "^5.0.4",
-    "webpack": "^5.81.0",
-    "webpack-cli": "^5.0.2"
+    "typescript": "^5.0.4"
   },
   "dependencies": {
     "ioredis": "^5.3.2"

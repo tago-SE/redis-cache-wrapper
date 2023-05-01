@@ -5,5 +5,5 @@ function sayHello(name) {
     return "Hello, ".concat(name, "!");
 }
 exports.sayHello = sayHello;
-var RedisCacheRepository_1 = require("./src/RedisCacheRepository");
+var RedisCacheRepository_1 = require("./RedisCacheRepository");
 Object.defineProperty(exports, "RedisCacheRepository", { enumerable: true, get: function () { return RedisCacheRepository_1.RedisCacheRepository; } });
